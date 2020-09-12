@@ -33,12 +33,10 @@ public class GameOverManager : MonoBehaviour
     private void OnPlayerDied()
     {
         _defeatPanel.SetActive(true);
-        Time.timeScale = 0;
     }
 
     private void OnTreasureCollected()
     {
         _victoryPanel.SetActive(true);
-        Time.timeScale = 0;
     }
 }
